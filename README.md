@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Dashboard Widget Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This project is a React-based application for managing a dynamic dashboard with categories and widgets. Users can add, remove, and search widgets within categories. The application allows dynamic management of widgets and provides a flexible interface for dashboard configuration.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Dynamic Categories and Widgets**: Define categories with multiple widgets.
+- **Add/Remove Widgets**: Users can dynamically add and remove widgets within a category.
+- **Search Functionality**: Search through a list of all available widgets.
+- **User Interface**: Intuitive UI for managing categories and widgets.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Front-end library for building the user interface.
+- **Redux** or **Context API**: State management for dynamic widget and category management.
+- **JavaScript**: Programming language used.
+- **CSS**: Styling the application.
 
-### `npm test`
+## Setup and Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to get the application running locally:
 
-### `npm run build`
+1. **Clone the Repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/sharmaasahill/Dashboard-Widget-Management.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the Project Directory:
+    cd Dashboard-Widget-Management
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install Dependencies:
+    npm install
 
-### `npm run eject`
+4. Run the Application:
+    npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Build the Application (for production):
+    npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Usage
+Adding Widgets: Click the "+Add Widget" button, enter the widget name and text, and click "Add" to add it to the selected category.
+Removing Widgets: Click the cross icon on the widget to remove it from the category or uncheck from the category list.
+Searching Widgets: Use the search bar to filter widgets by name or text.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contribution Guidelines
+If you'd like to contribute to this project, please follow these steps:
+1. Fork the Repository.
+2. Create a New Branch:
+    git checkout -b feature/your-feature
+3. Make Your Changes and Commit:
+    git add .
+    git commit -m "Add your message here"
+4. Push to Your Fork:
+    git push origin feature/your-feature
+5. Create a Pull Request on GitHub.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact
+For any questions or feedback, please contact i.sahilkrsharma@gmail.com
